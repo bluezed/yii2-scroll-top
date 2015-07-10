@@ -4,22 +4,25 @@
  * @license   https://github.com/bluezed/yii2-scroll-top/blob/master/LICENSE
  */
 
-.smooth-scroll {
-	position: fixed;
-	bottom: 10px;
-	right: 15px;
-	display: none;
-	z-index: 9000000;
-	text-align: center;
-	padding-top: 5px;
+.scroll-top {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    display: none;
+    z-index: 99999;
+    text-align: center;
 }
-.circle {
-	border-radius: 50%;
-	width: 25px;
-	height: 25px;
-	background-color: #a0a0a0;
-	/* width and height can be anything, as long as they are equal */
+
+.scroll-top-circle {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #a0a0a0;
+    padding-top: 5px;
+    font-size: 1.25em;
+    color: #ffffff;
 }
-.circle:hover {
-	background-color: #666666;
+
+.scroll-top-circle:hover {
+    background-color: #666666;
 }

@@ -23,7 +23,7 @@ class ScrollTop extends Widget
      */
     public function init()
     {
-		$view = $this->getView();
+        $view = $this->getView();
         ScrollTopAsset::register($view);
     }
     /**
@@ -31,18 +31,14 @@ class ScrollTop extends Widget
      */
     public function run()
     {
-        
-		return Html::a(
+        return Html::a(
                     Html::tag(
-						'i', 
-						'', 
-						[
-							'class'=>'glyphicon glyphicon-menu-up circle',
-							'style'=>'padding-top:5px;font-size:1.25em;color:#fff;'
-						]
-					),
+                        'i', 
+                        '', 
+                        ['class'=>'glyphicon glyphicon-menu-up scroll-top-circle']
+                    ),
                     '#',
-                    ['id'=>'smooth-scroller', 'class'=>'smooth-scroll']
+                    ['id'=>'btn-top-scroller', 'class'=>'scroll-top']
                 );
     }
 }
