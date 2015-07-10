@@ -28,7 +28,7 @@ How to use
 
 Add this line to your main layout so the widget gets loaded automatically into every page.
 ```php
-\bluezed\scrollTop\ScrollTop::widget();
+<?= \bluezed\scrollTop\ScrollTop::widget() ?>
 ```
 
 By default your main layout should be located here:
