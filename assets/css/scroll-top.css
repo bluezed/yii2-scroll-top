@@ -1,0 +1,25 @@
+/**
+ * @link      https://github.com/bluezed/yii2-scroll-top
+ * @copyright Copyright (c) 2015 Thomas Geppert
+ * @license   https://github.com/bluezed/yii2-scroll-top/blob/master/LICENSE
+ */
+
+.smooth-scroll {
+	position: fixed;
+	bottom: 10px;
+	right: 15px;
+	display: none;
+	z-index: 9000000;
+	text-align: center;
+	padding-top: 5px;
+}
+.circle {
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	background-color: #a0a0a0;
+	/* width and height can be anything, as long as they are equal */
+}
+.circle:hover {
+	background-color: #666666;
+}
