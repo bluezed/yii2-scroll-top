@@ -9,6 +9,7 @@ namespace bluezed\scrollTop;
 
 use yii\helpers\Json;
 use yii\base\Widget;
+use yii\helpers\Html;
 
 /**
  * scroll-to-top widget to include in a website
