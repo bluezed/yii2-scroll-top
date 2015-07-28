@@ -35,10 +35,10 @@ class ScrollTop extends Widget
                     Html::tag(
                         'i', 
                         '', 
-                        ['class'=>'glyphicon glyphicon-menu-up scroll-top-circle']
+                        ['class'=>'glyphicon glyphicon-menu-up bluezed-scroll-top-circle']
                     ),
                     '#',
-                    ['id'=>'btn-top-scroller', 'class'=>'scroll-top']
+                    ['id'=>'btn-top-scroller', 'class'=>'bluezed-scroll-top']
                 );
     }
 }

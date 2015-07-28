@@ -6,20 +6,21 @@
 
 $(function(){  
     
-    var btnScroller = $("#btn-top-scroller");
+    var btnScroller = $('#btn-top-scroller');
+    var scrollerTriggerPoint = $('html, body').offset().top + 150;
 
-    $(document).on("scroll", function() {
-        var top = $("html, body").offset().top;
-        if ($(window).scrollTop() > top+150) {
+    $(document).on('scroll', function() {
+        var pos = $(window).scrollTop();
+        if (pos > scrollerTriggerPoint && !btnScroller.is(':visible')) {
             btnScroller.fadeIn();
-        } else {
+        } else if (pos < scrollerTriggerPoint && btnScroller.is(':visible')) {
             btnScroller.fadeOut();
         }
     });
 
-    btnScroller.on("click", function(e) {
+    btnScroller.on('click', function(e) {
         e.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, 300);
+        $('html, body').animate({ scrollTop: 0 }, 300);
     });
     
 });

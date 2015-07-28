@@ -4,7 +4,7 @@
  * @license   https://github.com/bluezed/yii2-scroll-top/blob/master/LICENSE
  */
 
-.scroll-top {
+.bluezed-scroll-top {
     position: fixed;
     bottom: 10px;
     right: 15px;
@@ -13,7 +13,7 @@
     text-align: center;
 }
 
-.scroll-top-circle {
+.bluezed-scroll-top-circle {
     border-radius: 50%;
     width: 25px;
     height: 25px;
@@ -23,6 +23,6 @@
     color: #ffffff;
 }
 
-.scroll-top-circle:hover {
+.bluezed-scroll-top-circle:hover {
     background-color: #666666;
 }
