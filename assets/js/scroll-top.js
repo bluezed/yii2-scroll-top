@@ -16,7 +16,7 @@ $(function(){
         } else if (pos < scrollerTriggerPoint && btnScroller.is(':visible')) {
             btnScroller.fadeOut();
         }
-    });
+    }).scroll();
 
     btnScroller.on('click', function(e) {
         e.preventDefault();
