@@ -28,7 +28,17 @@ Add this line to your main layout so the widget gets loaded automatically into e
 ```php
 <?= \bluezed\scrollTop\ScrollTop::widget() ?>
 ```
-
+or
+```php
+<?=
+\bluezed\scrollTop\ScrollTop::widget([
+   'btnColorClass' => 'btn-info',
+   'linkText' => 'Top',
+   'glyphicon' => 'glyphicon-circle-arrow-up',
+   ])
+?> 
+```
+        
 By default your main layout should be located here:
 ```
 <Project-Folder>/views/layouts/main.php
