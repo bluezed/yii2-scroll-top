@@ -1,0 +1,22 @@
+/**
+ * @link      https://github.com/bluezed/yii2-scroll-top
+ * @copyright Copyright (c) 2015 Thomas Geppert
+ * @license   https://github.com/bluezed/yii2-scroll-top/blob/master/LICENSE
+ */
+
+#btn-top-scroller {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    display: none;
+    z-index: 9999999;
+    text-align: center;
+}
+.bluezed-scroll-top {
+    background-color: #a0a0a0;
+    color: #ffffff;
+}
+
+.bluezed-scroll-top:hover {
+    background-color: #666666;
+}
