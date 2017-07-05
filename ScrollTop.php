@@ -75,11 +75,10 @@ class ScrollTop extends Widget {
      * @inheritdoc
      */
     public function run() {
-       return Html::a(
-                        Html::tag(
-                                'i', '&nbsp' .$this->linkText, ['class' => 'glyphicon ' . $this->glyphicon . '',]
-                        ), '#', ['id' => 'btn-top-scroller', 'class' => 'btn ' . $this->btnColorClass . '',
-                    'title' => empty($this->linkText) ? 'To Top' : $this->linkText]
+        return Html::a(
+        Html::tag('i', '&nbsp' . $this->linkText, ['class' => 'glyphicon ' . $this->glyphicon . '',] ),
+        '#', ['id' => 'btn-top-scroller', 'class' => 'btn ' . $this->btnColorClass . '',
+        'title' => !empty($this->linkText) ?  $this->linkText : '']
         );
     }
 
