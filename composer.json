@@ -1,23 +1,23 @@
 {
-    "name": "bluezed/yii2-scroll-top",
+    "name": "jkofsky/yii2-scroll-top",
     "description": "This Yii 2 widget adds a simple scroll-to-top button to your site.",
     "keywords": ["yii2", "extension", "scroll", "top", "scroll-to", "scroll-to-top", "button"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/bluezed/yii2-scroll-top/issues",
-        "source": "https://github.com/bluezed/yii2-scroll-top"
+        "issues": "https://github.com/jkofsky/yii2-scroll-top/issues",
+        "source": "https://github.com/jkofsky/yii2-scroll-top"
     },
     "authors": [
         {
-            "name": "Thomas Geppert",
-            "email": "bluezed.apps@gmail.com"
+            "name": "Jeff Kofsky",
+            "email": "jkofsky@newsradio1620.com"
         }
     ],
     "require": {
         "yiisoft/yii2": "*"
     },
     "autoload": {
-        "psr-4": { "bluezed\\scrollTop\\": "" }
+        "psr-4": { "jkofsky\\scrollTop\\": "" }
     }
 }
