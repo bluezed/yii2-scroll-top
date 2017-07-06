@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist bluezed/yii2-scroll-top "*"
+php composer.phar require --prefer-dist jkofsky/yii2-scroll-top "*"
 ```
 
 or add
 
 ```
-"bluezed/yii2-scroll-top": "*"
+"jkofsky/yii2-scroll-top": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -26,12 +26,12 @@ How to use
 ----------
 Add this line to your main layout so the widget gets loaded automatically into every page.
 ```php
-<?= \bluezed\scrollTop\ScrollTop::widget() ?>
+<?= \jkofsky\scrollTop\ScrollTop::widget() ?>
 ```
 or
 ```php
 <?=
-\bluezed\scrollTop\ScrollTop::widget([
+\jkofsky\scrollTop\ScrollTop::widget([
    'btnColorClass' => 'btn-info',
    'linkText' => 'Top',
    'glyphicon' => 'glyphicon-circle-arrow-up',
