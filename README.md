@@ -37,4 +37,4 @@ By default your main layout should be located here:
 Screenshot
 ----------
 The button appears in the bottom right corner of the page once you have scrolled down at least 150px.
-![Screenshot of the button](http://s19.postimg.org/dkro8azxf/Scroll_Top_Button.png)
+![Screenshot of the button](https://s19.postimg.cc/dkro8azxf/Scroll-_Top-_Button.png)
