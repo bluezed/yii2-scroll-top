@@ -18,11 +18,22 @@ use yii\helpers\Html;
  */
 class ScrollTop extends Widget
 {
+    public $i_class;
+    public $a_id;
+    public $a_class;
+
     /**
      * @inheritdoc
      */
     public function init()
     {
+        if($this->i_class === null){
+            $this->i_class = 'glyphicon glyphicon-menu-up bluezed-scroll-top-circle';
+        }
+        if($this->a_class === null){
+            $this->a_class = 'bluezed-scroll-top';
+        }
+
         $view = $this->getView();
         ScrollTopAsset::register($view);
     }
@@ -35,10 +46,10 @@ class ScrollTop extends Widget
                     Html::tag(
                         'i', 
                         '', 
-                        ['class'=>'glyphicon glyphicon-menu-up bluezed-scroll-top-circle']
+                        ['class'=> $this->i_class]
                     ),
                     '#',
-                    ['id'=>'btn-top-scroller', 'class'=>'bluezed-scroll-top']
+                    ['id'=>'btn-top-scroller', 'class'=> $this->a_class]
                 );
     }
 }
