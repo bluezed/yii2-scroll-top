@@ -19,7 +19,6 @@ use yii\helpers\Html;
 class ScrollTop extends Widget
 {
     public $i_class;
-    public $a_id;
     public $a_class;
 
     /**
